@@ -37,8 +37,8 @@
     
 - summary: |
     Проверка загрузки ресурсов на сайт
-- status: pass
+- status: fail
 
 - summary: |
     Проверка выполнения скриптов на сайте
-- status: fail
+- status: pass
