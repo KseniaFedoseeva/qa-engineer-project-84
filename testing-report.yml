@@ -1,44 +1,44 @@
 ---
 - summary: |
     Проверка поиска товаров по категориям и ключевым словам
-- status: pass
+  status: pass
 
 - summary: |
     Проверка фильтрации товаров по категории
-- status: pass
+  status: pass
 
 - summary: |
     Проверка фильтрации товаров по бренду
-- status: pass
+  status: pass
 
 - summary: |
     Проверка поиска товаров по категории и бренду
-- status: pass
+  status: pass
 
 - summary: |
     Проверка работы мобильной версии сайта
-- status: fail
+  status: fail
 
 - summary: |
     Проверка возможности переключить язык интерфейса
-- status: pass
+  status: pass
 
 - summary: |
     Проверка возможности локализации (перевода) на русский и английский языки
-- status: fail
+  status: fail
 
 - summary: |
     Проверка возможности добавления товара в корзину из каталога товаров
-- status: pass
+  status: pass
 
 - summary: |
     Проверка возможности просматривать товары и просматривать подробную информацию о товаре
-- status: pass
+  status: pass
     
 - summary: |
     Проверка загрузки ресурсов на сайт
-- status: fail
+  status: fail
 
 - summary: |
     Проверка выполнения скриптов на сайте
-- status: pass
+  status: pass
