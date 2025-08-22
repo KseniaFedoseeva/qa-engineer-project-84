@@ -1,5 +1,31 @@
 ---
 - summary: |
+    Покупка товара
+  requirement: |
+    Пользователь должен иметь возможность купить товар 
+  prerequisites: |
+    Открыт сайт магазина. В корзину добавлены товары. Пользователь в корзине
+  test-data: |
+    Товары: Essence Mascara Lash Princess, Apple
+  steps:
+    - Нажать Checkout
+  expected-result: |
+    Пользователь должен увидеть на странице модальное окно Order placed successfully. В окне должна быть информация о товаре, количестве и сумме заказа. на форме должна быть кнопка Close.
+
+- summary: |
+    Завершение покупки: закрытие окна Order placed successfully
+  requirement: |
+    Пользователь должен иметь возможность вернуться к корзине и продолжить покупки после заказа
+  prerequisites: |
+    Открыт сайт магазина. В корзину добавлены товары. Пользователь в корзине нажал Checkout. Открыто модальное окно Order placed successfully.
+  test-data: |
+    Товары: Essence Mascara Lash Princess, Apple
+  steps:
+    - Нажать Close.
+  expected-result: |
+    Окно Order placed successfully закрывается. В корзине пусто.
+    
+- summary: |
     Проверка поиска товаров по категориям и ключевым словам
   requirement: |
     Пользователь должен иметь возможность искать товары по ключевому слову или категории
