@@ -25,6 +25,14 @@ test-cases:
     status: pass
 
   - summary: |
+      Проверка фильтрации товаров по цене
+    status: fail
+
+  - summary: |
+      Проверка фильтрации товаров по наличию
+    status: pass
+
+  - summary: |
       Проверка фильтрации товаров по бренду
     status: pass
 
