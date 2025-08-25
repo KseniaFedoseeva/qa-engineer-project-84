@@ -1,5 +1,21 @@
 ---
 - summary: |
+    Покупка товара
+  status: pass
+
+- summary: |
+    Завершение покупки: закрытие окна Order placed successfully
+  status: fail
+
+- summary: |
+    Навигация по страницам каталога
+  status: pass
+
+- summary: |
+    Навигация по тегу в карточке товара
+  status: fail
+      
+- summary: |
     Проверка поиска товаров по категориям и ключевым словам
   status: pass
 
