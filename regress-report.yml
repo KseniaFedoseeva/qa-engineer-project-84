@@ -89,8 +89,16 @@ test-cases:
     status: pass
 
   - summary: |
+      Проверка запросов на сайте
+    status: pass
+
+  - summary: |
       Проверка выполнения скриптов на сайте
     status: pass
+
+  - summary: |
+      Проверка ввода невалидных значений в строку поиска
+    status: pass 
   
 bugreports:
   - summary: |
